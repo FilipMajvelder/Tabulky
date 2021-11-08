@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <title>tabulka v HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" href="img/favicon-1.jpg">
+    <link rel="stylesheet" href="css/table.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tabulky v HTML</h1>
+    </header> 
+    <a href="table.html">Tabulky v HTML</a>
+    <a href="multimedia.html">Multimedia</a>
+    <a href="galerie.html">Galerie</a>
+    <main>
+
+        <h2> Slavná osobnost: Václav Havel</h2>
+
+        
+    
+            <div class="vizitka"><table border="1">
+                <caption>Vizitka Osobnosti</caption>
+                <thead>
+                    <tr>
+                        <th>Portrét</th>
+                        <th colspan="2">Základní údaje</th>
+                        <th>Významné činy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3"><img src="img/vhavel.jpg" alt="HavelFoto"></td>
+                        <td colspan="2">Václav Havel</td>
+                        <td rowspan="4">Napsal knihy: Moc bezmocných, Prosím stručně, Open letters</td>
+                    </tr>
+                    <tr>
+                        <td>5. října 1936</td>
+                        <td>18. prosince 2011</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" rowspan="2">Dramatik, disident, politický vězeň, režisér... Václav Havel, poslední prezident Československa a zároveň první hlava ČR, celý život bojoval za svobodu</td>
+                    </tr>
+                    <tr>
+                        <td>fotka Václava Havla</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4"><a href="https://cs.wikipedia.org/wiki/V%C3%A1clav_Havel">Wikipedie</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <h2>Značky a atributy tabulky:</h2>
+        <dl>
+            <dt> &lt;table&gt; </dt>
+            <dd>Značka označující celou tabulku.</dd>
+
+            <dt>&lt;thead&gt;</dt>
+            <dd>Značka označující záhlaví tabulky.</dd>
+
+            <dt>&lt;tr&gt;</dt>
+            <dd>Značka označující řádek tabulky.</dd>
+
+            <dt>&lt;td&gt;</dt>
+            <dd>Značka označující data tabulky.</dd>
+
+            <dt>&lt;th&gt;</dt>
+            <dd>Značka označující záhlaví tabulky.</dd>
+
+            <dt>&lt;caption&gt;</dt>
+            <dd>Značka označující popisek tabulky. </dd>
+
+            <dt>colspan</dt>
+            <dd>Atribut zajišťující rozpětí přes několik sloupců.</dd>
+            <dt>rowspan</dt>
+            <dd>Atribut zajišťující rozpětí přes několik řádků.</dd>
+        </dl>
+    </main>
+    <footer>
+        <hr>
+        <p> &copy;Filip Majvelder 2021</p>
+    </footer>
+</body>
+
+</html>
